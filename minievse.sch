@@ -573,7 +573,7 @@ F 1 "1uF" H 8350 2450 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 8600 2200 30  0001 C CNN
 F 3 "" H 8500 2350 300 0000 C CNN
 	1    8500 2350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR020
@@ -881,13 +881,13 @@ $EndComp
 $Comp
 L GND #PWR030
 U 1 1 5726BDA4
-P 6250 6050
-F 0 "#PWR030" H 6250 5800 50  0001 C CNN
-F 1 "GND" H 6250 5900 50  0000 C CNN
-F 2 "" H 6250 6050 50  0000 C CNN
-F 3 "" H 6250 6050 50  0000 C CNN
-	1    6250 6050
-	1    0    0    -1  
+P 6250 5850
+F 0 "#PWR030" H 6250 5600 50  0001 C CNN
+F 1 "GND" H 6250 5700 50  0000 C CNN
+F 2 "" H 6250 5850 50  0000 C CNN
+F 3 "" H 6250 5850 50  0000 C CNN
+	1    6250 5850
+	-1   0    0    1   
 $EndComp
 Text Label 6250 5500 2    60   ~ 0
 AC_ZEROX
@@ -1265,7 +1265,7 @@ F 1 "H11AA" H 5950 6150 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm_LongPads" H 5750 5750 50  0001 L CIN
 F 3 "" H 5980 5950 50  0000 L CNN
 	1    5950 5950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6250 5950 6350 5950
