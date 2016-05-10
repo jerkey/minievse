@@ -1174,7 +1174,6 @@ $EndComp
 Wire Wire Line
 	4850 5850 4750 5850
 Connection ~ 3600 4850
-Connection ~ 4900 4400
 Connection ~ 3200 2550
 $Comp
 L POT RV1
@@ -1254,7 +1253,7 @@ F 3 "" H 7050 4650 50  0000 C CNN
 $EndComp
 Text Label 7050 4750 2    60   ~ 0
 LED_DATA
-Text Label 5500 4750 0    60   ~ 0
+Text Label 5500 4550 0    60   ~ 0
 LED_DATA
 $Comp
 L H11AA U3
